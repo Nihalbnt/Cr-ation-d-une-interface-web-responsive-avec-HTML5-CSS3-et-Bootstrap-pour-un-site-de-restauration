@@ -1,0 +1,46 @@
+.navbar-transparent {
+    background-color: transparent;
+  }
+  
+  .carousel-item {
+    height: 29rem;
+    color: white;
+    background-color: black;
+    position: relative;
+  }
+  .content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 50px;
+    color: white;
+  }
+  .overlay-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+  }
+  .cards-wrapper{
+    column-gap: 15px;
+    padding: 50px;
+  }
+  .carousel {
+    margin-top: 70px; /* Ajustez la valeur de la marge selon vos besoins */
+  }
+  .row{
+   margin: 60px;
+   padding-top: 40px;
+  }
+  #map-container {
+    position: fixed !important;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+  }
+  
